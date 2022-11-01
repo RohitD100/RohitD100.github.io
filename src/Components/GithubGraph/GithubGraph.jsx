@@ -1,11 +1,15 @@
 import React from "react";
-// import Calender from '../About/Calender'
+import GitHubCalendar from 'react-github-calendar';
 
 const GithubGraph = () => {
     return (
         <div>
-            {/* <Calender /> */}
+
             <div className="about center">
+                <h1>Github</h1>
+                <GitHubCalendar username="RohitD100" />
+                <br />
+                <br />
                 <img style={{ width: '50%' }} alt="Rohit" src="https://github-readme-stats.vercel.app/api/top-langs?username=RohitD100&show_icons=true&locale=en&layout=compact&theme=dracula" />
                 <br />
                 <br />
