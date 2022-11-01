@@ -11,6 +11,10 @@ import { Projects } from "./Components/Projects/Projects";
 import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
+import GithubGraph from "./Components/GithubGraph/GithubGraph";
+
+
+
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -26,6 +30,9 @@ export default function App() {
         <Github />
         <section id="#projects">
           <Projects />
+        </section>
+        <section >
+          <GithubGraph />
         </section>
         <section id="#contact">
           <Contact />
