@@ -84,6 +84,14 @@ export const About = () => {
         >
           Resume
         </button>
+        <a href=" https://drive.google.com/uc?export=download&id=1fEflhyfOs3yR0WSIJTYs8rY_zAIbH2kn">
+          <button
+            className="btnResume"
+          >
+            Download Resume
+          </button>
+        </a>
+
       </div>
       <Introduction />
       <Timeline />

@@ -14,6 +14,9 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiChakraui,
+  SiRedux,
+
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -117,39 +120,40 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          {/* //comment */}
-          {/*           
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
+                  <img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_home.png?raw=true" alt="" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>APIJS Mongo</h2>
+                <h2>KFC Clone</h2>
                 <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
+                  We have clone of KFC ecommerce application. The clone explain each menu item just like real site. To maintain the add to cart functionality, I have used reducer to manage the state.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
+                  < SiChakraui />
+                  <SiRedux />
+                  <FaReact />
+                  <SiMaterialui />
                 </div>
                 <div>
                   <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
+                    href="https://ecommerce-react-redux-rohitd100.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      View NPM Package
+                      See this live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
+                    href="https://github.com/RohitD100/KFC-clone"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -162,6 +166,8 @@ export const Projects = () => {
             </div>
           </div>
 
+
+          {/*   
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">

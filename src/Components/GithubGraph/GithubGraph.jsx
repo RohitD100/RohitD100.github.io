@@ -23,6 +23,8 @@ const GithubGraph = () => {
                 <br />
                 <br />
                 <img style={{ width: '50%' }} src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RohitD100&amp;theme=dracula" alt="img"></img>
+                <br />
+                <img style={{ width: '100%' }} src="https://github-profile-trophy.vercel.app/?username=RohitD100&theme=radical&no-frame=false&no-bg=false&margin-w=4" ></img>
             </div>
 
         </div>

@@ -17,7 +17,7 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img src={profilePic} alt="Images" />
+              <img style={{ width: '250px', height: '250px' }} src='https://avatars.githubusercontent.com/u/107460113?v=4' alt="Images" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
