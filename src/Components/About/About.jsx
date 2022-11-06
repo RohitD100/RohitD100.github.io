@@ -101,3 +101,11 @@ export const About = () => {
     </>
   );
 };
+
+/*
+ https://drive.google.com/uc?export=download&id=1fEflhyfOs3yR0WSIJTYs8rY_zAIbH2kn 
+ https://drive.google.com/uc?export=download&id=1vzK7oPvQh9p2MdIso9_nBwTDN0ZTLrsj
+
+
+ https://drive.google.com/file/d/1vzK7oPvQh9p2MdIso9_nBwTDN0ZTLrsj/view?usp=share_link
+*/
