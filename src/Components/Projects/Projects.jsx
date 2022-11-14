@@ -129,7 +129,7 @@ export const Projects = () => {
                 </div>
               </div>
               <div className="project_information">
-                <h2>KFC Clone</h2>
+                <h2> My KFC </h2>
                 <p>
                   We have clone of KFC ecommerce application. The clone explain each menu item just like real site. To maintain the add to cart functionality, I have used reducer to manage the state.
                 </p>
@@ -167,41 +167,41 @@ export const Projects = () => {
           </div>
 
 
-          {/*   
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
+                    src="https://github.com/RohitD100/Rodan_Field_clone/blob/main/Expedia.png?raw=true"
                     alt=""
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
+                <h2>All Season Hotels</h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                  Expedia is an online travel agency,online travel shopping company. The website and mobile app can be used to book hotel reservations vacation packages.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                  <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
+                  < SiChakraui />
+                  <SiRedux />
+                  <FaReact />
                 </div>
                 <div>
                   <a
-                    href="https://drive-system.herokuapp.com/user/"
+                    href="https://allseasonhotels.vercel.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                      See this live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/imbickydutta/file-system-backend"
+                    href="https://github.com/Dhanraj4198/average-collar-3069"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -213,6 +213,9 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
+          {/*   
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
