@@ -66,7 +66,7 @@ export const Timeline = () => {
               Managing Team of 15 Student Guides directly and 100-150 students
               indirectly with help of student guides.
             </p>
-          </VerticalTimelineElement> */}
+          </VerticalTimelineElement> 
           {/* <VerticalTimelineElement
             date={"Nov 2021 - Dec 2021"}
             contentStyle={{
@@ -223,9 +223,9 @@ export const Timeline = () => {
 
 
 
-          {/* <VerticalTimelineElement
+          <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Dec 2019 - Aug 2021"}
+            date={"July 2020 - March 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -247,19 +247,61 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Founder & Director (Part Time)
+              Deploma in Elementary Education
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
+              Yashvantrav Gade Patil Vidyalya s(MH)
             </h4>
             <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
+              Started in July 2020.
+              <br />
+              Currently pursuing
             </p>
-          </VerticalTimelineElement> */}
+          </VerticalTimelineElement>
+
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"July 2020"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Bachelor of Arts
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Yashwantrav Mukt vidyapith (MH)
+            </h4>
+            <p data-aos="fade-right">
+              Started in July 2020.
+              <br />
+              Currently pursuing
+            </p>
+          </VerticalTimelineElement>
+
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

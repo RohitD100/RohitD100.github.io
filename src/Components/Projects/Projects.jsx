@@ -125,7 +125,7 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img src="https://github.com/RohitD100/KFC-clone/blob/main/KFC_home.png?raw=true" alt="" />
+                  <img src="https://i.ibb.co/FVg3mLZ/KFC-Home.png" alt="" />
                 </div>
               </div>
               <div className="project_information">
@@ -172,7 +172,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://github.com/RohitD100/Rodan_Field_clone/blob/main/Expedia.png?raw=true"
+                    src="https://i.ibb.co/Lv51DkW/all-season-hotel-home.png"
                     alt=""
                   />
                 </div>
@@ -214,24 +214,27 @@ export const Projects = () => {
             </div>
           </div>
 
-          {/*   
+
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
+                    src="https://pandit0305.github.io/static/media/fashionmart.b6c30e213cf55c93b494.png"
                     alt="Uniqlo-Clone"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Uniqlo Clone</h2>
+                <h2>Fashion Mart</h2>
                 <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
+                  Ecommerce website for mens,womens,beauty catagorey's
+                  basic flow of our website is built a user authetication
+                  for login and signup,created product pages for differernt
+                  catagory,developed product description page and built a
+                  cart and payment section and finally created a admin
+                  panel for this website.
                 </p>
                 <div>
                   <SiNodedotjs />
@@ -242,7 +245,7 @@ export const Projects = () => {
                 </div>
                 <div>
                   <a
-                    href="https://uniqlo-clone.netlify.app/"
+                    href="https://myshop12.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -251,7 +254,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    href="https://github.com/RohitD100/FashionMart"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -263,7 +266,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
+          {/* <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
                 <div>

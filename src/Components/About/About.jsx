@@ -23,8 +23,7 @@ export const About = () => {
         <p className="about__desc" data-aos="fade-right">
           Passionate and creative Full Stack Developer having proficiency in
           MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          learn new one.
         </p>
         <div className="about__contact center">
           <a
@@ -78,13 +77,13 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1fEflhyfOs3yR0WSIJTYs8rY_zAIbH2kn/view?usp=sharing"
+              "https://drive.google.com/file/d/16MitesA2O6cbk7yvhnF2PvXaF9R2ms8t/view?usp=sharing"
             );
           }}
         >
           Resume
         </button>
-        <a href=" https://drive.google.com/uc?export=download&id=1fEflhyfOs3yR0WSIJTYs8rY_zAIbH2kn">
+        <a href="https://drive.google.com/uc?export=download&id=1kxAym4tYcxLkXkhdj3q8SVq1GcfePkvY">
           <button
             className="btnResume"
           >
@@ -102,10 +101,3 @@ export const About = () => {
   );
 };
 
-/*
- https://drive.google.com/uc?export=download&id=1fEflhyfOs3yR0WSIJTYs8rY_zAIbH2kn 
- https://drive.google.com/uc?export=download&id=1vzK7oPvQh9p2MdIso9_nBwTDN0ZTLrsj
-
-
- https://drive.google.com/file/d/1vzK7oPvQh9p2MdIso9_nBwTDN0ZTLrsj/view?usp=share_link
-*/
