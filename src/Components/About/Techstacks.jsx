@@ -1,19 +1,21 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
   SiMaterialui,
   SiExpress,
-  SiTailwindcss,
   SiNetlify,
-  SiChakraui
+  SiChakraui,
+  SiTypescript,
+  SiTailwindcss,
+  SiHeroku
 
 } from "react-icons/si";
 import { DiVisualstudio } from "react-icons/di";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
 
@@ -53,22 +55,22 @@ export const Techstacks = () => {
             <h5>Express</h5>
           </div>
 
-          {/* <div>
-            <FaAws />
-            <h5>AWS</h5>
-          </div> */}
+          <div>
+            <SiTypescript />
+            <h5>Typescript</h5>
+          </div>
           <div>
             <BsBootstrap />
             <h5>Bootstrap</h5>
           </div>
-          {/* <div>
+          <div>
             <BsWordpress />
             <h5>Wordpress</h5>
-          </div> */}
-          {/* <div>
+          </div>
+          <div>
             <SiHeroku />
             <h5>Heroku</h5>
-          </div> */}
+          </div>
           <div>
             <VscGithub />
             <h5>Github</h5>
@@ -81,10 +83,10 @@ export const Techstacks = () => {
             <SiMaterialui />
             <h5>Material Ui</h5>
           </div>
-          {/* <div>
+          <div>
             <SiTailwindcss />
             <h5>Telwind CSS</h5>
-          </div> */}
+          </div>
           <div>
             <SiNetlify />
             <h5>Netlify</h5>
@@ -101,11 +103,7 @@ export const Techstacks = () => {
       </div>
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
     </>
   );
 };

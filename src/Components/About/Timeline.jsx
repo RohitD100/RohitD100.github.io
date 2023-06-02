@@ -140,10 +140,10 @@ export const Timeline = () => {
               Joined the Military coding school to learn Full Stack Development
               and DSA. Also get to learn lot more other skills as well.
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
+            date={"Feb 2023 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -165,27 +165,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Co-founder
+              Freelancer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Agricultural Training institute, Ahmednagar
+              Pune Maharashtra (full time)
             </h4>
             <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
+              Started in Feb 2023 & working on React js, Typescript, Material ui, Node js,
+              Express js. I have more than 4 months experience.
             </p>
-          </VerticalTimelineElement> }
-
-          {/* comment  */}
-
-
-
+          </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"May-2022 - Present"}
+            date={"May-2022 - February-2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -247,18 +241,17 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Deploma in Elementary Education
+              Diploma in Elementary Education
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Yashvantrav Gade Patil Vidyalya s(MH)
+              Yashvantrav Gade Patil Vidyalya's(MH)
             </h4>
             <p data-aos="fade-right">
-              Started in July 2020.
-              <br />
-              Currently pursuing
+              Studied Diploma in Elementary Education and Passed with 80.35 Percentage. Started in July 2020.
+
             </p>
           </VerticalTimelineElement>
 

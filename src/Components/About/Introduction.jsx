@@ -2,7 +2,6 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/Photo_fw14_056.png";
 
 
 export const Introduction = () => {
@@ -37,12 +36,6 @@ export const Introduction = () => {
                 coding school.
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Entrepreneure{" "}
-              </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
