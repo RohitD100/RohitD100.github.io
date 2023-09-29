@@ -6,7 +6,6 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import DescriptionIcon from "@material-ui/icons/Description";
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";

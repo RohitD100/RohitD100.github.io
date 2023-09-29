@@ -174,8 +174,9 @@ export const Timeline = () => {
               Pune Maharashtra (full time)
             </h4>
             <p data-aos="fade-right">
-              Started in Feb 2023 & working on React js, Typescript, Material ui, Node js,
-              Express js. I have more than 4 months experience.
+            Since February 2023, I've been immersed in MERN (MongoDB, Express.js, React.js, Node.js)
+            stack development. Specializing in React.js with TypeScript and Material UI for dynamic
+            user interfaces, I seamlessly integrate them with a robust backend powered by Node.js and Express.js.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

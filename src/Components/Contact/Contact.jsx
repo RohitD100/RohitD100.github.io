@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { VscGithub } from "react-icons/vsc";
 import { CgMail } from "react-icons/cg";
-import { BsInstagram, BsFillTelephoneFill } from "react-icons/bs";
+import {  BsFillTelephoneFill } from "react-icons/bs";
 import { ThemeContext } from "../../Context/theme";
 
 import { FaLinkedin } from "react-icons/fa";
