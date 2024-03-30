@@ -21,7 +21,10 @@ export const Navbar = () => {
     <>
       <nav className="center nav">
         <ul
-          style={{ display: showNavList ? "flex" : null }}
+          style={{
+            display: showNavList ? "flex" : null,
+            backgroundColor: themename === 'dark' ? 'black' : 'white'
+          }}
           className="nav__list"
         >
           <li className="nav__list-item">
