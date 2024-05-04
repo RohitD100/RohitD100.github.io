@@ -17,14 +17,19 @@ export const Navbar = () => {
     }
     setShowNavList(!showNavList);
   };
-  console.log(showNavList, themename === 'dark')
+
   return (
     <>
       <nav className="center nav">
         <ul
           style={{
             display: showNavList ? "flex" : null,
-            backgroundColor: showNavList && themename === 'dark' ? "black" : themename === 'light' ? "white" : ''
+            backgroundColor:
+              showNavList && themename === "dark"
+                ? "black"
+                : themename === "light"
+                  ? "white"
+                  : "",
           }}
           className="nav__list"
         >
