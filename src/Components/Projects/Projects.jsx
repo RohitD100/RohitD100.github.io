@@ -1,18 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact } from "react-icons/fa";
-import {
-  SiHtml5,
-  SiMaterialui,
-  SiExpress,
-  SiMongodb,
-  SiNodedotjs,
-  SiChakraui,
-  SiRedux,
 
-} from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
     <>
@@ -32,20 +20,20 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Fashion Mart</h2>
                 <p>
-                  Ecommerce website for mens,womens,beauty catagorey's
-                  basic flow of our website is built a user authetication
-                  for login and signup,created product pages for differernt
-                  catagory,developed product description page and built a
-                  cart and payment section and finally created a admin
-                  panel for this website.
+                  Ecommerce website for mens,womens,beauty catagorey's basic
+                  flow of our website is built a user authetication for login
+                  and signup,created product pages for differernt
+                  catagory,developed product description page and built a cart
+                  and payment section and finally created a admin panel for this
+                  website.
                 </p>
-                <div>
+                {/* <div>
                   <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
                   <SiHtml5 />
                   <DiCss3 />
-                </div>
+                </div> */}
                 <div>
                   <a
                     href="https://myshop12.netlify.app/"
@@ -83,16 +71,18 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>All Season Hotels</h2>
                 <p>
-                  Expedia is an online travel agency,online travel shopping company. The website and mobile app can be used to book hotel reservations vacation packages.
+                  Expedia is an online travel agency,online travel shopping
+                  company. The website and mobile app can be used to book hotel
+                  reservations vacation packages.
                 </p>
-                <div>
+                {/* <div>
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
-                  < SiChakraui />
+                  <SiChakraui />
                   <SiRedux />
                   <FaReact />
-                </div>
+                </div> */}
                 <div>
                   <a
                     href="https://allseasonhotels.vercel.app/"
@@ -127,17 +117,19 @@ export const Projects = () => {
               <div className="project_information">
                 <h2> My KFC </h2>
                 <p>
-                  We have clone of KFC ecommerce application. The clone explain each menu item just like real site. To maintain the add to cart functionality, I have used reducer to manage the state.
+                  We have clone of KFC ecommerce application. The clone explain
+                  each menu item just like real site. To maintain the add to
+                  cart functionality, I have used reducer to manage the state.
                 </p>
-                <div>
+                {/* <div>
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
-                  < SiChakraui />
+                  <SiChakraui />
                   <SiRedux />
                   <FaReact />
                   <SiMaterialui />
-                </div>
+                </div> */}
                 <div>
                   <a
                     href="https://ecommerce-react-redux-rohitd100.vercel.app/"
@@ -174,12 +166,14 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Best Buy Clone</h2>
                 <p>
-                  Best Buy is a consumer electronics retailer with operations in the U.S., Mexico, and Canada. Company sells a wide variety of items.
+                  Best Buy is a consumer electronics retailer with operations in
+                  the U.S., Mexico, and Canada. Company sells a wide variety of
+                  items.
                 </p>
                 <div>
-                  <DiCss3 />
+                  {/* <DiCss3 />
                   <SiHtml5 />
-                  <IoLogoJavascript />
+                  <IoLogoJavascript /> */}
                   {/* <SiNodedotjs />
                   <SiExpress />
                   <SiMongodb />
@@ -226,11 +220,11 @@ export const Projects = () => {
                   cities and pickup location from map to see weather data of
                   respective places.
                 </p>
-                <div>
+                {/* <div>
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
-                </div>
+                </div> */}
                 <div>
                   <a
                     href="https://transcendent-dusk-333abb.netlify.app/"
@@ -299,9 +293,7 @@ export const Projects = () => {
             </div>
           </div> */}
         </div>
-
       </div>
-
     </>
   );
 };

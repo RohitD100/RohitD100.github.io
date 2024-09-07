@@ -1,15 +1,9 @@
 import React from "react";
 import "./About.css";
 import { Type } from "./Type";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
-import TwitterIcon from "@material-ui/icons/Twitter";
 // import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
-import { Techstacks } from "./Techstacks";
 // import Button from "@mui/material/Button";
 export const About = () => {
   return (
@@ -24,7 +18,7 @@ export const About = () => {
           MERN Stack. Attired with a variety of tools & technologies and keen to
           learn new one.
         </p>
-        <div className="about__contact center">
+        {/* <div className="about__contact center">
           <a
             href="https://github.com/RohitD100"
             aria-label="github"
@@ -70,33 +64,24 @@ export const About = () => {
           >
             <TwitterIcon />
           </a>
-        </div>
+        </div> */}
 
         <button
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/16MitesA2O6cbk7yvhnF2PvXaF9R2ms8t/view?usp=sharing"
+              "https://drive.google.com/file/d/1oGjTYqJU4mbLGGssGX1pqNov3atDYmlP/view?usp=sharing",
             );
           }}
         >
           Resume
         </button>
-        <a href="https://drive.google.com/uc?export=download&id=1kxAym4tYcxLkXkhdj3q8SVq1GcfePkvY">
-          <button
-            className="btnResume"
-          >
-            Download Resume
-          </button>
-        </a>
-
+        {/* <a href="https://drive.google.com/uc?export=download&id=1kxAym4tYcxLkXkhdj3q8SVq1GcfePkvY">
+          <button className="btnResume">Download Resume</button>
+        </a> */}
       </div>
       <Introduction />
       <Timeline />
-      <section id="#skills">
-        <Techstacks />
-      </section>
     </>
   );
 };
-

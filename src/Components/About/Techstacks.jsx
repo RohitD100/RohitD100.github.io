@@ -1,28 +1,10 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import {
-  SiRedux,
-  SiHtml5,
-  SiMaterialui,
-  SiExpress,
-  SiNetlify,
-  SiChakraui,
-  SiTypescript,
-  SiTailwindcss,
-  SiHeroku
-
-} from "react-icons/si";
-import { DiVisualstudio } from "react-icons/di";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap, BsWordpress } from "react-icons/bs";
 
 export const Techstacks = () => {
   return (
     <>
-      <div className="section main" data-aos="fade-right">
+      {/* <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skills</h2>
         <div className="techsection">
           <div>
@@ -92,18 +74,17 @@ export const Techstacks = () => {
             <h5>Netlify</h5>
           </div>
           <div>
-            < DiVisualstudio />
+            <DiVisualstudio />
             <h5>VS code</h5>
           </div>
           <div>
-            < SiChakraui />
+            <SiChakraui />
             <h5>Chakra Ui</h5>
           </div>
         </div>
       </div>
       <br />
-      <br />
-
+      <br /> */}
     </>
   );
 };
