@@ -6,7 +6,7 @@ const GithubGraph = () => {
     <div>
       <div className="about center">
         <h1>Github</h1>
-        <GitHubCalendar username="indiancoder108" />
+        <GitHubCalendar username="rohitd100" />
         {/* <img
           style={{ width: "50%" }}
           alt="Rohit"
@@ -29,7 +29,7 @@ const GithubGraph = () => {
         {/* <br /> */}
         <img
           style={{ width: "50%" }}
-          src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=indiancoder108&amp;theme=dracula"
+          src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rohitd100&amp;theme=dracula"
           alt="img"
         ></img>
         <br />

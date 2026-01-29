@@ -3,7 +3,6 @@ import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
 
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
@@ -16,18 +15,18 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
-              <img style={{ width: '250px', height: '250px' }} src='https://avatars.githubusercontent.com/u/107460113?v=4' alt="Images" />
+              <img
+                style={{ width: "250px", height: "250px" }}
+                src="https://avatars.githubusercontent.com/u/107460113?v=4"
+                alt="Images"
+              />
             </div>
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
                 <span className="different">Rohit Dorage </span> and I am from{" "}
-                <span className="different">
-                  {" "}
-                  Ahmednagar, Maharashtra (India)
-                </span>
-                . I have completed my HSC
-                from{" "}
+                <span className="different"> Pune, Maharashtra (India)</span>. I
+                have completed my HSC from{" "}
                 <span className="different">
                   Matoshri B.B. Science jounior college(MH)
                 </span>
@@ -42,7 +41,6 @@ export const Introduction = () => {
                 </span>
                 Traveller
               </h4>
-
             </div>
           </div>
         </div>

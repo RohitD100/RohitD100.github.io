@@ -1,10 +1,16 @@
-import React from "react";
 import "./About.css";
 import { Type } from "./Type";
-// import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
-// import Button from "@mui/material/Button";
+
+const subListStyle = {
+  listStyle: "none",
+  paddingLeft: 0,
+  marginTop: "0.75rem",
+  color: "white",
+  fontSize: "0.95rem",
+};
+
 export const About = () => {
   return (
     <>
@@ -13,72 +19,108 @@ export const About = () => {
           Hello, I am <span className="about__name">Rohit Dorage</span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
-          MERN Stack. Attired with a variety of tools & technologies and keen to
-          learn new one.
-        </p>
-        {/* <div className="about__contact center">
-          <a
-            href="https://github.com/RohitD100"
-            aria-label="github"
-            target="_blank"
-            rel="noreferrer"
-            className="link link--icon"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            href="rohitdorage100@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="mail"
-            className="link link--icon"
-          >
-            <EmailIcon />
-          </a>
-          <a
-            href="tel:+917498995670"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="phone"
-            className="link link--icon"
-          >
-            <PhoneIcon />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/rohitdorage/"
-            aria-label="linkedin"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <LinkedInIcon />
-          </a>
-          <a
-            href="https://twitter.com/RohitDorage2"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a>
-        </div> */}
-
-        <button
-          className="btnResume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/1oGjTYqJU4mbLGGssGX1pqNov3atDYmlP/view?usp=sharing",
-            );
+        <div
+          style={{
+            display: "flex",
+            gap: "15px",
+            flexDirection: "column",
+            alignItems: "center",
           }}
         >
-          Resume
-        </button>
-        {/* <a href="https://drive.google.com/uc?export=download&id=1kxAym4tYcxLkXkhdj3q8SVq1GcfePkvY">
-          <button className="btnResume">Download Resume</button>
-        </a> */}
+          <p className="about__desc" data-aos="fade-right">
+            I’m a Full-Stack Engineer with 3+ years of experience building
+            scalable SaaS products, secure authentication systems, and desktop
+            applications used in production by real users.
+          </p>
+          <p>
+            I specialize in complex, non-trivial engineering problems—the kind
+            where reliability, performance, and security actually matter.
+          </p>
+          <div
+            style={{
+              maxWidth: "800px",
+              margin: "0 auto",
+              padding: "2rem",
+              textAlign: "center",
+            }}
+          >
+            <h2 style={{ fontSize: "1.8rem", marginBottom: "1.5rem" }}>
+              🔧 What I Do Best
+            </h2>
+
+            <ol
+              style={{
+                listStylePosition: "inside",
+                padding: 0,
+                margin: 0,
+              }}
+            >
+              <li style={{ marginBottom: "1.5rem" }}>
+                <strong>Electron.js Desktop Applications</strong>
+                <ul style={subListStyle}>
+                  <li>Production-grade apps with terabyte-scale uploads</li>
+                  <li>
+                    Resumable uploads, fault tolerance & secure auth flows
+                  </li>
+                </ul>
+              </li>
+
+              <li style={{ marginBottom: "1.5rem" }}>
+                <strong>Full-Stack SaaS Development</strong>
+                <ul style={subListStyle}>
+                  <li>React.js, Next.js, Node.js, Golang</li>
+                  <li>Clean, maintainable REST APIs</li>
+                </ul>
+              </li>
+
+              <li style={{ marginBottom: "1.5rem" }}>
+                <strong>Authentication & Security</strong>
+                <ul style={subListStyle}>
+                  <li>Refresh-token based auth systems</li>
+                  <li>Enterprise SSO (Next.js + iron-session)</li>
+                  <li>Secure token lifecycle & encryption</li>
+                </ul>
+              </li>
+
+              <li style={{ marginBottom: "1.5rem" }}>
+                <strong>Cloud & Infrastructure</strong>
+                <ul style={subListStyle}>
+                  <li>AWS (S3, SQS, CI/CD with GitHub Actions)</li>
+                  <li>Dockerized services & microservice architectures</li>
+                </ul>
+              </li>
+
+              <li>
+                <strong>Payments & Integrations</strong>
+                <ul style={subListStyle}>
+                  <li>Stripe, Dolby Media, TalkJS</li>
+                  <li>Secure server-side validation & error handling</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              gap: "15px",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <h2>🧠 Recent Work Highlights</h2>
+            <p style={{ textAlign: "center" }}>
+              Architected a desktop uploader (Electron.js) for terabyte-scale
+              data ingestion into AWS S3 with event-driven notifications.
+              Designed a shared authentication package used across multiple
+              microservices, standardizing security and reducing duplication.
+              Built and maintained scalable backend services in Node.js and
+              Golang for production SaaS platforms. Integrated Stripe payments
+              and real-time messaging systems, improving user engagement and
+              reliability.
+            </p>
+          </div>
+        </div>
       </div>
       <Introduction />
       <Timeline />
