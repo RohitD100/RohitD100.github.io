@@ -32,6 +32,48 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
+            date={"May 2026 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: `3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Engineer
+            </h3>
+
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              YaraCircle Private Limited (Remote)
+            </h4>
+
+            <p data-aos="fade-right">
+              Leading the design and development of scalable full-stack
+              applications, architecting REST APIs, database schemas, and cloud
+              infrastructure. Driving engineering best practices through code
+              reviews, performance optimization, production issue resolution,
+              and CI/CD improvements while collaborating closely with product
+              and business stakeholders.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
             date={"August 2025 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,

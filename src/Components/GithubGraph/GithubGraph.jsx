@@ -17,21 +17,21 @@ const GithubGraph = () => {
           src="https://github-readme-stats.vercel.app/api?username=indiancoder108&amp;show_icons=true&amp;locale=en&amp;theme=dracula"
           alt="Rohit"
         ></img> */}
-        {/* <img
+        <img
           style={{ width: "50%" }}
           src="https://github-readme-streak-stats.herokuapp.com/?user=indiancoder108&amp;theme=dracula"
           alt="Rohit"
-        ></img> */}
+        ></img>
         <br />
         <br />
         {/* <img style={{ width: '50%' }} alt="Rohit Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=RohitD100&amp;bg_color=1F222E&amp;color=F8D866&amp;line=F85D7F&amp;point=FFFFFF&amp;hide_border=true"></img> */}
         {/* <br /> */}
         {/* <br /> */}
-        <img
+        {/* <img
           style={{ width: "50%" }}
-          src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rohitd100&amp;theme=dracula"
-          alt="img"
-        ></img>
+          src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rohitd100&theme=dracula"
+          alt="GitHub Profile Summary"
+        /> */}
         <br />
         {/* <img
           style={{ width: "100%" }}
